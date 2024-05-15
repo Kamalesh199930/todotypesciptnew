@@ -44,7 +44,6 @@ const App: FC = () => {
                         placeholder="Deadline (in Days)..."
                         onChange={handleChange}
                         name="deadline"
-                        value={deadline}
                     />
                 </div>
                 <button onClick={addTask}>Add Task</button>
